@@ -1,0 +1,12 @@
+Potential To do List:
+1) Bootstrapping for counts of metrics
+2)Change bootstrap to days
+2)outliers in correlation between categories
+3)Find indicators that potentially explain higher surprise factors:news?
+4)PCA/ other anomaly detection
+5)Talk to GE
+6)Kernel Density to fix value outliers
+7)Generate more specific report indicating specific problematic areas of data/ data points?
+8)Ergodic Data might be bad assumption
+9)Delayed Data
+10)Throw out warning if too small a sample size
