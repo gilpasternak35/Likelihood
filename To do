@@ -1,7 +1,6 @@
 Potential To do List:
 1) Bootstrapping for counts of metrics
 2)Change bootstrap to days
-2)outliers in correlation between categories
 3)Find indicators that potentially explain higher surprise factors:news?
 4)PCA/ other anomaly detection
 5)Talk to GE
@@ -13,3 +12,4 @@ Potential To do List:
 11)Assess Surprise Metric: point out problematic areas of data in different colors? Like a weather map
 12)Documentation
 13)Accept all column names
+14)outliers in correlation between categories
