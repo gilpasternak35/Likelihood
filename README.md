@@ -8,7 +8,7 @@ The metric of anomaly, called **surprise**, is a probabilistic metric of measuri
 
 Currently, Likelihood makes use of the following statistical methods:
 
-**Bootstrapping:**:
+**Bootstrapping:**
 The Statistical method of bootstrapping is utilized to see if expected counts for categorical values are anomalous
 
 **Time-Series Anomaly Detection using Facebook Prophet:**
