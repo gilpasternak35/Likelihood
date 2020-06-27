@@ -1,4 +1,4 @@
-**To do: **
+## To Do: ##
 
 1. Add a "data spellcheck" to check categorical data that has defied metadata for specific issues 
 2. Check for extraneous HTML tags laying around in the data
