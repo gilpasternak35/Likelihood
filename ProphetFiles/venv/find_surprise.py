@@ -4,9 +4,17 @@ from datetime import datetime, timedelta
 
 
 def find_surprise(truncated_data, fcst, timestamp = "date_time"):
-    df['ts'] = df[timestamp]
-    grouped_counts = truncated_data.value_counts()
+    truncated_data = truncated_data.assign(ts=testDf.get(timestamp))
 
+    # If a column is string, convert to date/time
+    if truncated_data.applymap(type).eq(str).any()['ts']:
+        truncated_data['ts'] = pd.to_datetime(truncated_data['ts'])
+
+    try:
+        grouped_counts = truncated_data.value_counts()
+    except AttributeError:
+        print("Arguments should be a valid Pandas DataFrame and the name of your timestamp column")
+        
     prophetTestDf = pd.DataFrame({'ds':grouped_counts.index,
                                   'y':np.log10(grouped_counts.values),
                                   'y_linear':grouped_counts.values})

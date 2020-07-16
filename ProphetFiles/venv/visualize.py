@@ -7,7 +7,11 @@ import pandas as pd
 # Takes in a model that has been trained on country, plots graphs for visualization
 def visualize(m):
     # plotting for debug only
-    fig = m.plot(fcst)
-    fig = m.plot_components(fcst)
+    try:
+        fig = m.plot(fcst)
+        fig = m.plot_components(fcst)
+    except error:
+        print("This function requires a Prophet DataFrame")
+
     return fig
 
