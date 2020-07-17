@@ -14,7 +14,7 @@ def find_surprise(truncated_data, fcst, timestamp = "date_time"):
         grouped_counts = truncated_data.value_counts()
     except AttributeError:
         print("Arguments should be a valid Pandas DataFrame and the name of your timestamp column")
-        
+
     prophetTestDf = pd.DataFrame({'ds':grouped_counts.index,
                                   'y':np.log10(grouped_counts.values),
                                   'y_linear':grouped_counts.values})
