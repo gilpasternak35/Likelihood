@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a92e53cf-c1e2-4df4-82c2-2086b8695615" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/venv/find_surprise.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/find_surprise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.ipynb_checkpoints/likelihood-public-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../.ipynb_checkpoints/likelihood-public-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../likelihood-public.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../likelihood-public.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
